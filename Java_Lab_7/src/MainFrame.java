@@ -64,6 +64,7 @@ public class MainFrame extends JFrame {
         final JScrollPane scrollPaneOutgoing =
                 new JScrollPane(textAreaOutgoing);
 // Панель ввода сообщения
+        //fixed
         final JPanel messagePanel = new JPanel();
         messagePanel.setBorder(
                 BorderFactory.createTitledBorder("Сообщение"));
